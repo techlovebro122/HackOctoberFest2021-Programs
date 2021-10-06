@@ -1,0 +1,19 @@
+# Sqrt(x)
+Solution for leetcode problem
+class Solution {
+public:
+    int mySqrt(int x) {
+        int low=1,high=x,ans;
+        while(low<=high){
+         long long   int mid=(low)+(high-low)/2;
+            if(pow(mid,n)<=x){
+                ans=mid;
+                low=mid+1;
+            }
+            else{
+                high=mid-1;
+            }
+        }
+        return ans;
+    }
+};
