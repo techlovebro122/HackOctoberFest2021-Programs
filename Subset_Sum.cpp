@@ -30,5 +30,5 @@ int main()
     int sum=10;
     int numbers[]={11,24,5,5};
     int n=sizeof(numbers)/sizeof(int);
-    cout<<subsetsum(sum,numbers,n);
+    cout<<"The subset is:"<<subsetsum(sum,numbers,n);
 }
